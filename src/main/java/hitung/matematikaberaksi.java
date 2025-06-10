@@ -1,16 +1,13 @@
 package hitung;
 
 public class matematikaberaksi {
-    //variabell
-    double bil1, bil2;
-    
-    //constructor
-     public matematika(double bil1, double bil2) {
-         this.bil1 = bil1;
-         this.bil2 - bil2;
-     }
-     
-     double setPenjumlahan(){
-         return bil1 + bil2;
-     }
+    public static void main(String[] args) {
+        //membuat objek
+        matematika maruf = new matematika(6,3);
+        
+        System.out.println("Hasil Penjumlahan: " + maruf.setPenjumlahan());
+        System.out.println("Hasil Pengurangan: " + maruf.setPengurangan());
+        System.out.println("Hasil Perkalian: " + maruf.setPerkalian());
+        System.out.println("Hasil Pembagian: " + maruf.setPembagian());
+    }
 }
